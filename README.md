@@ -8,4 +8,4 @@ GU Tech Society - Code Olympics 2021
 | 5  | Do You DND?              | ?           |
 | 6  | Bead Hedy At RPS         | hedyRPS     |
 | 7  | Fun With APIs            | TwoAPIs     |
-| 8  | Disappointment Minimiser | ?           |
+| 8  | Disappointment Minimiser | disappointment-minimiser           |
