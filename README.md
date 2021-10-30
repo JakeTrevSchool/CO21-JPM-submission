@@ -1,5 +1,5 @@
-# CO21-JPM-submission
-Team 6's submission for the JP morgan challenges  
+# JP Morgan - Code Olympics 2021
+Team 6's submission for the JP Morgan challenges  
 GU Tech Society - Code Olympics 2021  
 
 ### Challenges Completed
