@@ -5,7 +5,7 @@ GU Tech Society - Code Olympics 2021
 ### Challenges Completed
 | ID | Challenge                | Folder Name |
 | -- | ------------------------ | ----------- |
-| 5  | Do You DND?              | ?           |
+| 5  | Do You DND?              | dnd         |
 | 6  | Bead Hedy At RPS         | hedyRPS     |
 | 7  | Fun With APIs            | TwoAPIs     |
 | 8  | Disappointment Minimiser | disappointment-minimiser           |
