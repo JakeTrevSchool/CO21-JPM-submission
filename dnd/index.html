@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <style>
+
+            body {
+                background: #3c4c6e;
+                font-size: 20px;
+                font-family: fantasy;
+            }
+
+            .card {
+                background: #60d3b79e;
+            }
+
+        </style>
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container d-flex flex-row justify-content-end">
+            <button class="btn btn-primary btn-lg mt-3" onclick="generate()">Generate!</button>
+        </div>
+        <div class="container my-3">
+            <div class="row mb-4 justify-content-around">
+                <div class="col-sm-10 col-md-5 card">
+                    <h1 class="mt-3 align-self-center">Gabor</h1>
+                    <img class='image mt-3 card-img-top align-self-center' style="width:18rem;" src="./imgs/gabor.svg">
+                    <h2 class="align-self-center mt-3">Zorgir</h2>
+                    <div class="card-body">
+                        <div class="info mb-3">
+                            <h2 class='race card-title'></h2>
+                            <h2 class='class card-title'></h2>
+                            <h3 class='level card-subtitle'></h3>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="armour"></p>
+                            <p class="initiative"></p>
+                            <p class="speed"></p>
+                        </div>
+                        <div class="abilities card text-center">
+                            <h3 class="card-title mt-2">Abilities</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='strength col'></p>
+                                    <p class='dexterity col'></p>
+                                    <p class='constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class='intelligence col'></p>
+                                    <p class='wisdom col'></p>
+                                    <p class='charisma col'></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save card text-center">
+                            <h3 class="card-title mt-2">Saving Throws</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='save_strength col'></p>
+                                    <p class='save_dexterity col'></p>
+                                    <p class='save_constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class="save_intelligence col"></p>
+                                    <p class="save_wisdom col"></p>
+                                    <p class="save_charisma col"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills card text-center">
+                            <h3 class="card-title mt-2">Skills</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class="athletics col"></p>
+                                    <p class="deception col"></p>
+                                    <p class="insight col"></p>
+                                </div>
+                                <div class="row">
+                                    <p class="intimidation col"></p>
+                                    <p class="perception col"></p>
+                                    <p class="stealth col"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-5 card">
+                    <h1 class="align-self-center mt-3">Kevin</h1>
+                    <img class='image mt-3 card-img-top align-self-center' style="width:18rem;" src="./imgs/kevin.svg">
+                    <h2 class="mt-3 align-self-center">Thovaass</h2>
+                    <div class="card-body">
+                        <div class="info mb-3">
+                            <h2 class='race card-title'></h2>
+                            <h2 class='class card-title'></h2>
+                            <h3 class='level card-subtitle'></h3>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="armour"></p>
+                            <p class="initiative"></p>
+                            <p class="speed"></p>
+                        </div>
+                        <div class="abilities card text-center">
+                            <h3 class="card-title mt-2">Abilities</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='strength col'></p>
+                                    <p class='dexterity col'></p>
+                                    <p class='constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class='intelligence col'></p>
+                                    <p class='wisdom col'></p>
+                                    <p class='charisma col'></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save card text-center">
+                            <h3 class="card-title mt-2">Saving Throws</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='save_strength col'></p>
+                                    <p class='save_dexterity col'></p>
+                                    <p class='save_constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class="save_intelligence col"></p>
+                                    <p class="save_wisdom col"></p>
+                                    <p class="save_charisma col"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills card text-center">
+                            <h3 class="card-title mt-2">Skills</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class="athletics col"></p>
+                                    <p class="deception col"></p>
+                                    <p class="insight col"></p>
+                                </div>
+                                <div class="row">
+                                    <p class="intimidation col"></p>
+                                    <p class="perception col"></p>
+                                    <p class="stealth col"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-sm-10 col-md-5 card">
+                    <h1 class="mt-3 align-self-center">Per</h1>
+                    <img class='image mt-3 card-img-top align-self-center' style="width:18rem;" src="./imgs/per.svg">
+                    <h2 class="mt-3 align-self-center">Chedumov</h2>
+                    <div class="card-body">
+                        <div class="info mb-3">
+                            <h2 class='race card-title'></h2>
+                            <h2 class='class card-title'></h2>
+                            <h3 class='level card-subtitle'></h3>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="armour"></p>
+                            <p class="initiative"></p>
+                            <p class="speed"></p>
+                        </div>
+                        <div class="abilities card text-center">
+                            <h3 class="card-title mt-2">Abilities</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='strength col'></p>
+                                    <p class='dexterity col'></p>
+                                    <p class='constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class='intelligence col'></p>
+                                    <p class='wisdom col'></p>
+                                    <p class='charisma col'></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save card text-center">
+                            <h3 class="card-title mt-2">Saving Throws</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='save_strength col'></p>
+                                    <p class='save_dexterity col'></p>
+                                    <p class='save_constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class="save_intelligence col"></p>
+                                    <p class="save_wisdom col"></p>
+                                    <p class="save_charisma col"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills card text-center">
+                            <h3 class="card-title mt-2">Skills</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class="athletics col"></p>
+                                    <p class="deception col"></p>
+                                    <p class="insight col"></p>
+                                </div>
+                                <div class="row">
+                                    <p class="intimidation col"></p>
+                                    <p class="perception col"></p>
+                                    <p class="stealth col"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-5 card">
+                    <h1 class="mt-3 align-self-center">Chris</h1>
+                    <img class='image mt-3 card-img-top align-self-center' style="width:18rem;" src="./imgs/chris.jpg">
+                    <h2 class="mt-3 align-self-center">Shordend</h2>
+                    <div class="card-body">
+                        <div class="info mb-3">
+                            <h2 class='race card-title'></h2>
+                            <h2 class='class card-title'></h2>
+                            <h3 class='level card-subtitle'></h3>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="armour"></p>
+                            <p class="initiative"></p>
+                            <p class="speed"></p>
+                        </div>
+                        <div class="abilities card text-center">
+                            <h3 class="card-title mt-2">Abilities</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='strength col'></p>
+                                    <p class='dexterity col'></p>
+                                    <p class='constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class='intelligence col'></p>
+                                    <p class='wisdom col'></p>
+                                    <p class='charisma col'></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save card text-center">
+                            <h3 class="card-title mt-2">Saving Throws</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class='save_strength col'></p>
+                                    <p class='save_dexterity col'></p>
+                                    <p class='save_constitution col'></p>
+                                </div>
+                                <div class="row">
+                                    <p class="save_intelligence col"></p>
+                                    <p class="save_wisdom col"></p>
+                                    <p class="save_charisma col"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills card text-center">
+                            <h3 class="card-title mt-2">Skills</h3>
+                            <div class="card-body">
+                                <div class="row">
+                                    <p class="athletics col"></p>
+                                    <p class="deception col"></p>
+                                    <p class="insight col"></p>
+                                </div>
+                                <div class="row">
+                                    <p class="intimidation col"></p>
+                                    <p class="perception col"></p>
+                                    <p class="stealth col"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
