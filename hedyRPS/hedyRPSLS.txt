@@ -1,0 +1,30 @@
+print 'Welcome to your own rock scissors paper!'
+options is rock, paper, scissors, lizard, spock
+computer is options at random
+user is ask 'What do you choose?'
+
+print 'You chose: ' user
+print 'The computer chose: ' computer
+if user is computer print 'You Tied!'
+
+if user is rock and computer is lizard print 'You Win!'
+if user is rock and computer is scissors print 'You Win!'
+if user is lizard and computer is spock print 'You Win!'
+if user is lizard and computer is paper print 'You Win!'
+if user is spock and computer is scissors print 'You Win!'
+if user is spock and computer is rock print 'You Win!'
+if user is scissors and computer is paper print 'You Win!'
+if user is scissors and computer is lizard print 'You Win!'
+if user is paper and computer is rock print 'You Win!'
+if user is paper and computer is spock print 'You Win!'
+
+if computer is rock and user is lizard print 'You Lose...'
+if computer is rock and user is scissors print 'You Lose...'
+if computer is lizard and user is spock print 'You Lose...'
+if computer is lizard and user is paper print 'You Lose...'
+if computer is spock and user is scissors print 'You Lose...'
+if computer is spock and user is rock print 'You Lose...'
+if computer is scissors and user is paper print 'You Lose...'
+if computer is scissors and user is lizard print 'You Lose...'
+if computer is paper and user is rock print 'You Lose...'
+if computer is paper and user is spock print 'You Lose...'
