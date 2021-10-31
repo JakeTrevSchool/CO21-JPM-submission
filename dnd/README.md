@@ -12,7 +12,7 @@ Open the index.html file in a browser. Pressing the generate button creates rand
 
 # Screenshots
 
-![image](https://user-images.githubusercontent.com/59898302/139561537-b55577e8-2487-4bd6-bfed-b6ed5d607cb7.png)
-![image](https://user-images.githubusercontent.com/59898302/139561571-abcc6417-596d-4a11-8122-b2da5e8934b0.png)
-![image](https://user-images.githubusercontent.com/59898302/139561604-b058876c-4049-40dd-a3b2-91ef49ebacf4.png)
-![image](https://user-images.githubusercontent.com/59898302/139561632-9779fef2-9248-468d-b6e0-5aca55856bf1.png)
+![image](https://user-images.githubusercontent.com/59898302/139561880-6727b8d3-18f5-4437-8dd6-1b8b5856faf3.png)
+![image](https://user-images.githubusercontent.com/59898302/139561888-791c8e4a-95d8-4fa2-a3a4-47b9fd87ac3b.png)
+![image](https://user-images.githubusercontent.com/59898302/139561904-b47b9fff-766c-4c86-a362-2451f222f397.png)
+
